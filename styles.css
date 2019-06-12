@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     margin: 0 auto;
     font-size: 23px;
@@ -11,17 +15,27 @@ h1 {
     color: rgb(41, 41, 41);
 }
 
-div {
-    border: 1px solid rgb(187, 187, 187);
-
+div.imgstrock {
+    border: 1px solid whitesmoke;
 }
 
-div:hover {
-    color: blueviolet;
-    border: 1px solid gray;
+div.imgstrock:hover {
+    box-shadow: 0px 0px 34px -15px rgba(0,0,0,0.75);
+    color: rgb(63, 63, 63);
 }
 
-img {
+div.imgstrock img{
+    width: 100%;
+    height: auto;
+}
+
+div.text {
+    padding: 15px;
+    text-align: center;
+    color: rgb(34, 34, 34);
+}
+
+.imgbox {
     width: 30%;
     margin: 1.6%;
     float: left;

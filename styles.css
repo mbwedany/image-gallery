@@ -1,0 +1,28 @@
+h1 {
+    margin: 0 auto;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 25%;
+    border-bottom: 2px gray solid;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: rgb(41, 41, 41);
+}
+
+div {
+    border: 1px solid rgb(187, 187, 187);
+
+}
+
+div:hover {
+    color: blueviolet;
+    border: 1px solid gray;
+}
+
+img {
+    width: 30%;
+    margin: 1.6%;
+    float: left;
+}
